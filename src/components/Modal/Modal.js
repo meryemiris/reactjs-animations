@@ -5,11 +5,11 @@ import "./Modal.css";
 export default function modal(props) {
   const styles = [
     `Modal`,
-    props.show
+    props.show === "entering"
       ? "ModalOpening"
-      : props.show === false
+      : props.show === "exiting"
       ? "ModalClosing"
-      : "ModalClosed",
+      : null,
   ].join(" ");
 
   return (

@@ -18,10 +18,10 @@
 }
 
 
-.ModalClosed {
+/* .ModalClosed {
     opacity: 0;
     transform: translateY(-200%);
-}
+} */
 
 .ModalClosing {
     animation: closingModal 0.4s ease forwards;
